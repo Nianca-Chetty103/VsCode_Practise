@@ -5,7 +5,6 @@ to show who won each round.
 Add the score of who wins each round and allows the game to continue until the 
 player types "quit".
 """
-
 import random
 
 def get_computer_choice():
