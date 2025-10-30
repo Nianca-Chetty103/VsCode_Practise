@@ -7,6 +7,6 @@ The basic feeling of coding something just for the fun of trying to build someth
 simple test to learn python
 
 ## Tech Stack 📚
-Python  with tkinter to make the GUI look a little better
+Python  with tkinter to make the GUI look a little better.
 
 
