@@ -1,0 +1,23 @@
+
+        :root {
+            --sq-size: 64px;
+            --light: #f0d9b5;
+            --dark: #b58863;
+            --accent: #4caf50;
+        }
+        body { font-family: system-ui,Segoe UI,Roboto,Arial; padding: 20px; background:#fafafa; color:#222; }
+        .board { display: grid; grid-template-columns: repeat(8,var(--sq-size)); gap:0; border: 4px solid #333; width: calc(var(--sq-size)*8); }
+        .square {
+            width: var(--sq-size); height: var(--sq-size);
+            display:flex; align-items:center; justify-content:center;
+            font-size: calc(var(--sq-size) * 0.6);
+            user-select: none; cursor: pointer;
+        }
+        .light { background: var(--light); }
+        .dark { background: var(--dark); }
+        .square.selected { outline: 3px solid var(--accent); }
+        .controls { margin-top: 12px; display:flex; gap:8px; align-items:center; }
+        button { padding:6px 10px; border-radius:6px; border:1px solid #777; background:#fff; cursor:pointer; }
+        .status { margin-left: auto; font-weight:600; }
+        .coords { font-size:12px; color:#444; margin-top:6px; }
+    
